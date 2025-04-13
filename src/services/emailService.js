@@ -16,8 +16,8 @@ const mailOptions = {
         to: to,
         subject: subject,
         html: `<div>
-                    <h3>The Mail is Send via Node</h3>
-                    <span>OTP : </span><u style="color: red;">${otp}</u>
+                    <h3>Please do not share this otp with someone else.</h3>
+                    <span>Your One Time Password is </span><u style="font-weight: 900;">${otp}</u>
             </div>`,
     };
 
