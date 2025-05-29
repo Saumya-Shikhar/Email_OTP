@@ -9,7 +9,7 @@ const transporter = nodemailer.createTransport({
 });
 
 
-const sendEmail = async (to, subject, text) => {
+const sendEmail = async (to, subject) => {
 const otp = Math.floor(1000 + Math.random() * 9000);
 const mailOptions = {
         from: mailConfig.auth.user,
